@@ -1,21 +1,21 @@
 body {
-    background-color: #F5EEDC;
+    background-color: #F5F5F5;
 }
 
 h1 {
-    color: #4F091D;
+    color: #364F6B;
 }
 
 h3 {
-    color: #4F091D;
+    color: #3FC1C9;
 }
 
 hr {
-    color: #DD4A48;
+    color: #FC5185;
     border-style: dotted none none;
     border-width: 5px;
     align: center;
-    width: 14%;
+    width: 10%;
 }
 
 .education {
