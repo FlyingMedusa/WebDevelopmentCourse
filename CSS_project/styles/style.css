@@ -1,9 +1,11 @@
 body {
     background-color: #F5F5F5;
+    margin: 0px;
 }
 
 h1 {
     color: #364F6B;
+    margin-top: 0;
 }
 
 h3 {
@@ -16,6 +18,10 @@ hr {
     border-width: 5px;
     align: center;
     width: 10%;
+}
+
+.top {
+    background-color:rgba(157, 229, 233, 0.363);
 }
 
 .education {
