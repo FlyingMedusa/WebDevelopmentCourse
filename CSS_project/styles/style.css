@@ -4,10 +4,12 @@ body {
 }
 
 h1 {
-    color: white;
+    color: #d7d4ff;
     text-align: center;
-    margin-top: 100px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    font-family:'Gabriela', 'Times New Roman', Times, serif;
+    font-size: 42px;
 }
 
 h3 {
@@ -30,9 +32,11 @@ hr {
 }
 
 .textTop {
-    color: white;
+    color: #d7d4ff;
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    font-family:'Gabriela', 'Times New Roman', Times, serif;
+    font-size: 32px;
 }
 
 .frontPic {
