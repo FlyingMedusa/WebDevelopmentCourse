@@ -45,12 +45,14 @@ hr {
 }
 
 .myPic {
-    display: block;
+    position: relative;
     width: 180px;
     height: 180px;
-    margin: 15px auto;
+    margin-top: -90px;
+    left: 50%;
+    transform: translateX(-50%);
     border-radius: 50%;
-    border: #7267CB 5px dotted;
+    border: #d7d4ff 5px dotted;
 }
 
 .education {
