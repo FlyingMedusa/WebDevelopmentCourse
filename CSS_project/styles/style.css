@@ -4,9 +4,9 @@ body {
 }
 
 h1 {
-    color: #d7d4ff;
+    color: #d4eaff;
     text-align: center;
-    margin-top: 90px;
+    margin-top: 10px;
     margin-bottom: 10px;
     font-family:'Gabriela', 'Times New Roman', Times, serif;
     font-size: 42px;
@@ -42,16 +42,20 @@ hr {
 }
 
 .textTop {
-    color: #d7d4ff;
+    color: #d4eaff;
     text-align: center;
     margin-top: 0px;
     font-family:'Gabriela', 'Times New Roman', Times, serif;
     font-size: 32px;
 }
 
+.divPlanet {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
 .frontPic {
-    position: absolute;
-    height: 540px;
+    position: relative;
     top: 0;    
     left: 0;
     width: 100%;
@@ -66,7 +70,7 @@ hr {
     left: 50%;
     transform: translateX(-50%);
     border-radius: 50%;
-    border: #d7d4ff 5px dotted;
+    border: #d4eaff 5px solid;
 }
 
 .education {
@@ -74,7 +78,7 @@ hr {
 }
 
 .mainDiv {
-    background-color: #d7d4ff;
+    background-color: #d4eaff;
     margin: auto;
     width: 90%;
     box-shadow: 3px 3px 3px 7px rgba(41, 40, 40, 0.253);
