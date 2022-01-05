@@ -84,6 +84,11 @@ hr {
     box-shadow: 3px 3px 3px 7px rgba(41, 40, 40, 0.253);
 }
 
+.profileDiv {
+    margin: 0 auto;
+    width: 70%;
+}
+
 #rocket {
     position: absolute;
     width: 150px;
