@@ -75,6 +75,15 @@ p {
     border: #00ADB5 5px solid;
 }
 
+.aboutCircle {
+    background-color: #ffffff;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 180px;
+}
+
 .expDiv {
     background-color: #EEEEEE;
 }
@@ -104,7 +113,7 @@ p {
     -webkit-box-shadow: 0px 1px 3px #666666;
     -moz-box-shadow: 0px 1px 3px #666666;
     box-shadow: 0px 1px 3px #666666;
-    font-family: Georgia;
+    font-family: 'Times New Roman', Times, serif;
     color: #00ADB5;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
