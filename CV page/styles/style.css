@@ -18,6 +18,7 @@ h2 {
 }
 
 h3 {
+    font-family:'Times New Roman', Times, serif;
     margin-top: 0;
 }
 
@@ -165,6 +166,26 @@ p {
 
 .skillsDiv {
     background-color: #393E46;
+    text-align: center;
+}
+
+.skillsDiv h2{
+    color: #EEEEEE;
+    margin-top: 15px;
+}
+
+.skillsDiv h3{
+    color: #EEEEEE;
+    margin-top: 15px;
+}
+
+.skillsDiv td{
+    color: #EEEEEE;
+}
+
+.skillsDiv table {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hobbiesDiv {
