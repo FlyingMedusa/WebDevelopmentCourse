@@ -121,6 +121,48 @@ p {
     background-color: #EEEEEE;
 }
 
+.expDiv h2 {
+    color:#393E46;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.allegro {
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.allegroImg {
+    margin: 0 auto;
+    width: 15%;
+    position: relative; 
+    display:inline-block;
+}
+
+.sideTextAllegro {
+    text-align: right;
+    float: left;
+}
+
+.projektor {
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.sideTextProjektor {
+    text-align: left;
+    float: right;
+}
+
+.projektorImg {
+    margin: 0 auto;
+    width: 15%;
+    position: relative; 
+    display:inline-block;
+}
+
 .skillsDiv {
     background-color: #393E46;
 }
