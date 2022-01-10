@@ -125,47 +125,55 @@ p {
 .expDiv h2 {
     color:#393E46;
     margin-top: 15px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
 .allegro {
+    margin: 0 auto;
     width: 80%;
     height: 200px;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
 }
 
 .allegroImg {
     margin: 0 auto;
-    width: 15%;
+    width: 100%;
     position: relative; 
     display:inline-block;
 }
 
 .sideTextAllegro {
-    text-align: right;
-    float: left;
+    text-align: left;
+}
+
+.allegro h6 {
+    color: #EEEEEE;
 }
 
 .projektor {
+    margin: 0 auto;
     width: 80%;
     height: 200px;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
 }
 
 .sideTextProjektor {
-    text-align: left;
-    float: right;
+    text-align: right;
 }
 
 .projektorImg {
     margin: 0 auto;
-    width: 15%;
+    width: 100%;
     position: relative; 
     display:inline-block;
 }
 
 .skillsDiv {
     background-color: #393E46;
+    padding-top: 15px;
     text-align: center;
 }
 
