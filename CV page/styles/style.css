@@ -123,7 +123,7 @@ p {
 }
 
 .expDiv h2 {
-    color:#393E46;
+    color:#00ADB5;;
     margin-top: 15px;
     margin-bottom: 50px;
     text-align: center;
@@ -146,6 +146,14 @@ p {
 
 .sideTextAllegro {
     text-align: left;
+    display: table;
+    float: right;
+}
+
+.sideTextAllegro p, h3{
+    color: #00ADB5;
+    display: table-cell; 
+    vertical-align: middle; 
 }
 
 .allegro h6 {
@@ -162,6 +170,14 @@ p {
 
 .sideTextProjektor {
     text-align: right;
+    display: table;
+    float: right;
+}
+
+.sideTextProjektor p, h3{
+    color: #00ADB5;
+    display: table-cell; 
+    vertical-align: middle; 
 }
 
 .projektorImg {
@@ -169,6 +185,10 @@ p {
     width: 100%;
     position: relative; 
     display:inline-block;
+}
+
+.year {
+    font-size: 2rem;
 }
 
 .skillsDiv {
