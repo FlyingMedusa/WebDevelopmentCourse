@@ -147,7 +147,20 @@ h3 {
 #cta {
     background-color: #ff4c68;
     color: #ffffff;
+    padding: 3% 15% 7%;
+    text-align: center;
 }
+
+#cta h3 {
+    font-family:'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Social media */
+
+
 
 @media (max-width: 1140px) {
     #title {
