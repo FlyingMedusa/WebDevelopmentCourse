@@ -141,3 +141,29 @@ h3 {
 .pricing-column {
     padding: 3% 2%;
 }
+
+/* Download section */
+
+#cta {
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+
+@media (max-width: 1140px) {
+    #title {
+        text-align: center;
+    }
+
+    #title h1 {
+        font-size: 4.5rem;
+    }
+
+    .col-lg-6 {
+        width: 100%;
+    }
+
+    .title-image {
+        transform: rotate(0);
+        position: static;
+    }
+}
