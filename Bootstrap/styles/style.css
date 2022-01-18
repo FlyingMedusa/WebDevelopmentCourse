@@ -139,7 +139,7 @@ h3 {
 }
 
 .pricing-column {
-    padding: 3% 2%;
+    padding: 3% 2% 2%;
 }
 
 /* Download section */
@@ -147,7 +147,7 @@ h3 {
 #cta {
     background-color: #ff4c68;
     color: #ffffff;
-    padding: 3% 15% 7%;
+    padding: 3% 15% 3%;
     text-align: center;
 }
 
@@ -158,8 +158,20 @@ h3 {
     line-height: 1.5;
 }
 
-/* Social media */
+/* Footer */
 
+#footer {
+    padding: 1% 15% 1%;
+    text-align: center;
+}
+
+#footer p {
+    color: #8f8f8f;
+}
+
+.media {
+    margin: 10px;
+}
 
 
 @media (max-width: 1140px) {
