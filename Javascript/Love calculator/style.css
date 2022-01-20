@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    background: url(hearts.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(102, 20, 71);
+    font-family:'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+.main-div {
+    background-color: #fdebdf;
+    padding: 50px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70%;
+    width: 70%;
+    border-radius: 10% 30% 50% 70%;
+    box-shadow: 10px 10px #ffe9daa8;
+}
