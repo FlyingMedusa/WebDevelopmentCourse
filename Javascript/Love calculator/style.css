@@ -15,6 +15,10 @@ h1 {
     font-size: 3.5rem;
 }
 
+input {
+    text-align: center
+}
+
 .main-div {
     background-color: #fdebdf;
     padding: 50px 50px 150px;
@@ -35,6 +39,10 @@ h1 {
     display: inline-block;
     vertical-align: top; 
     padding: 5% 5% 2%;
+}
+
+.entry-desc {
+    font-family:'Montserrat';
 }
 
 .btn {
