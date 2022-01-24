@@ -6,7 +6,7 @@ document.getElementsByClassName("btn")[0].style.backgroundColor = "lightcyan";
 
 //innerHTML vs textContent
 document.getElementById("title").innerHTML = "<em>Bye!</em>";
-document.getElementById("subtitle").textContent = "<em>1 2 3...</em>"
+document.getElementById("subtitle").textContent = "<em>1 2 3...</em>";
 
 document.querySelector("#title").style.color = "darkcyan";
 document.querySelector("li a").style.color = "red";
