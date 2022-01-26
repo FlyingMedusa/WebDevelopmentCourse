@@ -1,14 +1,21 @@
 
 
 for (var i=0; i < document.querySelectorAll(".drum").length; i++) {
-    document.querySelectorAll(".drum")[i].addEventListener("click", handleClick);
+    document.querySelectorAll(".drum")[i].addEventListener("click", function() {
+        var buttonInnerHTML = this.innerHTML;
+        makeSound(buttonInnerHTML);
+    });
 } 
 
+document.addEventListener("keydown", function(event) {
+    var clickedButton = event.key;
+    makeSound(clickedButton);
+});
 
-function handleClick() {
-    var buttonInnerHTML = this.innerHTML;
 
-    switch (buttonInnerHTML) {
+function makeSound(key) {
+
+    switch (key) {
         case "w":
             var tom1 = new Audio('sounds/tom-1.mp3');
             tom1.play();
@@ -48,3 +55,4 @@ function handleClick() {
             console.log(buttonInnerHTML);
     }
 }
+
