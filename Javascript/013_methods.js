@@ -5,7 +5,7 @@ var houseKeeper1 = {
     moveSuitcase: function() {
         alert("May I take your suitcase?");
         pickUpSuitcase();
-        this.moveSuitcase();
+        move();
     }
 }
 
