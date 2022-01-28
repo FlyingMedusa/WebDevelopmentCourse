@@ -17,3 +17,38 @@ $("button").html("<em>Don't click me</em>");
 console.log($("img").attr("src"));
 $("a").attr("href", "https://www.yahoo.com");
 console.log($("h1").attr("class"));
+
+// Adding Event Listeners
+$("h1").click(function() {
+    $("h1").css("color","beige");
+});
+
+$("button").click(function() {
+    $("h1").css("color","beige");
+});
+
+$("input").keypress(function(event) {
+    console.log(event.key);
+});
+
+$(document).keypress(function(event) {
+    $("h1").text(event.key);
+});
+
+// on
+$("h1").on("mouseover", function () {
+    $("h1").css("color","yellow");
+});
+
+$("h1").on("click", function () {
+    $("h1").css("color","red");
+});
+
+// adding and removing elements
+$("h1").before("<button>New1</button>");
+$("h1").after("<button>New2</button>");
+$("h1").prepend("<button>New3</button>");
+$("h1").append("<button>New4</button>");
+
+// remove
+// $("button").remove();
