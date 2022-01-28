@@ -23,10 +23,6 @@ $("h1").click(function() {
     $("h1").css("color","beige");
 });
 
-$("button").click(function() {
-    $("h1").css("color","beige");
-});
-
 $("input").keypress(function(event) {
     console.log(event.key);
 });
@@ -52,3 +48,19 @@ $("h1").append("<button>New4</button>");
 
 // remove
 // $("button").remove();
+
+/* 
+hide an element - .hide()
+hide and show - .toggle()
+hide slower - .fadeOut();
+show slower - .fadeIn();
+hide and show slower - .fadeToggle();
+slide:
+slideUp(); slideDown(); slideToggle();
+
+animate: inside {} only those rules that have a numeric value
+*/
+
+$("button").on("click", function() {
+    $("h3").slideUp().slideDown().animate({opacity: 0.5, margin: "5%"});
+});
